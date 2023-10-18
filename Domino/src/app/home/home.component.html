@@ -2,5 +2,19 @@
 <h1>home component</h1>
 
 Xin chào bạn {{ name }} !!! 
+<br>
+<input type="text" value="{{name}}">
+<br>
+<input type="text" [value]="name">
+
+<br>
+<input type="text" [value]="name" title="Đây là {{name}}">
+
+
+<br>
+
+<h2 *ngIf="age > 18 ">Xin chào ông già !! </h2>
+
+<h2 *ngIf="age <= 18">Bạn còn rất trẻ !! </h2>
 </div>
 
