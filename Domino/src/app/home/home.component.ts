@@ -10,6 +10,12 @@ export class HomeComponent {
   public nameOrigin = '';
   public age = 25;
   public traiCay = ['Táo', 'Dâu', 'Xoài'];
+  public traiCay2 = [
+    { name: 'Apple', price: 1232, sale: true },
+    { name: 'Orange', price: 30, sale: false },
+    { name: 'Grape', price: 123, sale: true },
+    { name: 'Watermelon', price: 432, sale: false },
+  ];
 
   constructor() {
     console.log('constructor');
